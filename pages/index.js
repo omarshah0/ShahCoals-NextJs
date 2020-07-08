@@ -15,7 +15,7 @@ export default function Home() {
     <main>
       {console.log("IM RENDERED FIRST")}
       <Head>
-        <title>ShahCoals</title>
+        <title>ShahCoals | Sole Proprietor</title>
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="google-site-verification"
@@ -23,7 +23,7 @@ export default function Home() {
         />
         <meta
           name="description"
-          content="ShahCoals Pvt.Ltd aims to provide best quality Coal in Pakistan. We have BK6 6-Footy, BK4 4-Footy BK2 2-Footy and other Coal types. Check it out on our website ShahCoal.com."
+          content="ShahCoals Sole Proprietor aims to provide best quality Coal in Pakistan. We have BK6 6-Footy, BK4 4-Footy BK2 2-Footy and other Coal types. Check it out on our website ShahCoal.com."
         />
       </Head>
       <Header />
