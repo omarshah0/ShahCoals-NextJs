@@ -1,0 +1,62 @@
+.cta-button {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cta-button a {
+  position: relative;
+}
+
+.cta-button .btn {
+  /* reset */
+  -webkit-appearance: none;
+  border: 0;
+  outline: 0;
+  /* styles */
+  position: relative;
+  background: linear-gradient(45deg, #d38312 10%, #a83279 90%);
+  background-size: 200% 100%;
+  padding: 1.5rem 2rem;
+  color: white;
+  border-radius: 100px;
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.cta-button .btn:hover {
+  -webkit-animation: bruh 1s linear infinite;
+          animation: bruh 1s linear infinite;
+}
+
+@-webkit-keyframes bruh {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+@keyframes bruh {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+/*# sourceMappingURL=Button.css.map */
