@@ -21,6 +21,10 @@ export default function Home() {
           name="google-site-verification"
           content="ODn0FHTxIpoyCcfRAtV3yaoUvb3IoWrfj6pZfr7elEo"
         />
+        <meta
+          name="description"
+          content="ShahCoals Pvt.Ltd aims to provide best quality Coal in Pakistan. We have BK6 6-Footy, BK4 4-Footy BK2 2-Footy and other Coal types. Check it out on our website ShahCoal.com."
+        />
       </Head>
       <Header />
       <section className="container">
