@@ -17,6 +17,10 @@ export default function Home() {
       <Head>
         <title>ShahCoals</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta
+          name="google-site-verification"
+          content="ODn0FHTxIpoyCcfRAtV3yaoUvb3IoWrfj6pZfr7elEo"
+        />
       </Head>
       <Header />
       <section className="container">
