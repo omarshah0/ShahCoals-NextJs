@@ -13,7 +13,6 @@ export default function Home() {
   const [quoteBox, setQuoteBox] = useState(true);
   return (
     <main>
-      {console.log("IM RENDERED FIRST")}
       <Head>
         <title>ShahCoals | Sole Proprietor</title>
         <link rel="icon" href="/favicon.ico" />
