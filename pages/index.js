@@ -2,12 +2,8 @@ import Head from "next/head";
 import Link from "next/link";
 import Header from "../Components/Header/Header";
 import Footer from "../Components/Footer/Footer";
-import About from "../Components/About/About";
 import Card from "../Components/Card/Card";
 import Button from "../Components/CTAButton/Button";
-// import QuoteBox from "../Components/GetQuoteBox/QuoteBox";
-import { useState } from "react";
-import Router from "next/router";
 
 export default function Home() {
   return (
@@ -15,10 +11,6 @@ export default function Home() {
       <Head>
         <title>ShahCoals | Sole Proprietor</title>
         <link rel="icon" href="/favicon.ico" />
-        <link
-          rel="stylesheet"
-          href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
-        ></link>
         <meta
           name="google-site-verification"
           content="ODn0FHTxIpoyCcfRAtV3yaoUvb3IoWrfj6pZfr7elEo"
@@ -41,6 +33,7 @@ export default function Home() {
             We Aim To Deliver The <span>HIGHEST QUALITY COAL</span> We Mine.
           </h2>
         </div>
+        <Button />
       </section>
       <section className="ShahCoals-products">
         <h1 className="popular-products">ShahCoals Popular Products</h1>
