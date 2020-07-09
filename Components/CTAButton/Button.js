@@ -1,14 +1,12 @@
-
-
 function Button(props) {
   return (
     <div className="cta-button">
-      <button className="btn" onClick={props.openQuoteBox}>
-        Get A Free Quote Now
-      </button>
-        <a href="https://api.whatsapp.com/send?phone=+923336483355" target="__blank">
-          <img src="/Assets/cta_whatsapp.png" alt="cta-whatsapp"></img>
-        </a>
+      <a className="float"
+        href="https://api.whatsapp.com/send?phone=+923336483355"
+        target="__blank"
+      >
+        <i class="fa fa-whatsapp my-float"></i>
+      </a>
     </div>
   );
 }

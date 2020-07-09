@@ -43,13 +43,14 @@ function Body() {
           <Card
             name="BK-6 (6-Footy)"
             text="This is some basic info of Coal 6-Footy"
-            moisture="30%"
-            volatileMatter="40%"
-            fixedCarbon="50%"
-            sulfur="60%"
-            ash="70%"
+            moisture="3.5% - 4%"
+            volatileMatter="40% - 45%"
+            fixedCarbon="50% - 55%"
+            sulfur="7% - 8%"
+            ash="3.5% - 4%"
+            clarificValue="7300 - 7600"
           />
-          <Card
+          {/* <Card
             name="BK-4 (4-Footy)"
             text="This is some basic info of Coal 4-Footy"
             moisture="70%"
@@ -66,11 +67,11 @@ function Body() {
             fixedCarbon="60%"
             sulfur="40%"
             ash="20%"
-          />
+          /> */}
         </div>
-        <NavLink exact to="/products">
+        {/* <NavLink exact to="/products">
           <button className="btn">More Products</button>{" "}
-        </NavLink>
+        </NavLink> */}
       </section>
     </main>
   );

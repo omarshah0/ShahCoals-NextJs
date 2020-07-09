@@ -10,12 +10,15 @@ import { useState } from "react";
 import Router from "next/router";
 
 export default function Home() {
-  const [quoteBox, setQuoteBox] = useState(true);
   return (
     <main>
       <Head>
         <title>ShahCoals | Sole Proprietor</title>
         <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+        ></link>
         <meta
           name="google-site-verification"
           content="ODn0FHTxIpoyCcfRAtV3yaoUvb3IoWrfj6pZfr7elEo"
@@ -38,7 +41,6 @@ export default function Home() {
             We Aim To Deliver The <span>HIGHEST QUALITY COAL</span> We Mine.
           </h2>
         </div>
-        <Button openQuoteBox={() => setQuoteBox(true)} />
       </section>
       <section className="ShahCoals-products">
         <h1 className="popular-products">ShahCoals Popular Products</h1>
@@ -46,29 +48,32 @@ export default function Home() {
           <Card
             name="BK-6 (6-Footy)"
             text="This is some basic info of Coal 6-Footy"
-            moisture="30%"
-            volatileMatter="40%"
-            fixedCarbon="50%"
-            sulfur="60%"
-            ash="70%"
+            moisture="3.5% - 4%"
+            volatileMatter="40% - 45%"
+            fixedCarbon="50% - 55%"
+            sulfur="7% - 8%"
+            ash="3.5% - 4%"
+            clarificValue="7300 - 7600"
           />
           <Card
-            name="BK-4 (4-Footy)"
-            text="This is some basic info of Coal 4-Footy"
-            moisture="70%"
-            volatileMatter="60%"
-            fixedCarbon="50%"
-            sulfur="40%"
-            ash="30%"
+            name="BK-6 (6-Footy)"
+            text="This is some basic info of Coal 6-Footy"
+            moisture="3.5% - 4%"
+            volatileMatter="40% - 45%"
+            fixedCarbon="50% - 55%"
+            sulfur="7% - 8%"
+            ash="3.5% - 4%"
+            clarificValue="7300 - 7600"
           />
           <Card
-            name="BK-2 (2-Footy)"
-            text="This is some basic info of Coal 2-Footy"
-            moisture="20%"
-            volatileMatter="40%"
-            fixedCarbon="60%"
-            sulfur="40%"
-            ash="20%"
+            name="BK-6 (6-Footy)"
+            text="This is some basic info of Coal 6-Footy"
+            moisture="3.5% - 4%"
+            volatileMatter="40% - 45%"
+            fixedCarbon="50% - 55%"
+            sulfur="7% - 8%"
+            ash="3.5% - 4%"
+            clarificValue="7300 - 7600"
           />
         </div>
         <Link href="/about">
